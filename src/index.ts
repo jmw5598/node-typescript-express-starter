@@ -1,4 +1,7 @@
-export const sum: Function = (a: number, b: number): number => {
-  const result: number = a + b; // <== Leave out the semicolon to trigger error on commit.
-  return result;
-};
+import { Application } from './app';
+import * as dotenv from 'dotenv';
+
+dotenv.config();
+
+const application: Application = new Application();
+application.startServer();
