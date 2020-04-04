@@ -9,7 +9,10 @@
     "sourceMap": true,
     "outDir": "dist",
     "baseUrl": ".",
-    "forceConsistentCasingInFileNames": true,  
+    "forceConsistentCasingInFileNames": true, 
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "paths": {
       "*": [
         "node_modules/*"
